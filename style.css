@@ -9,9 +9,9 @@ html {
 }
 
 body {
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
-    color: #faf5ff;
+    background: #3f5efb;
+    background: radial-gradient(circle, #3f5efb 0%, #fc466b 100%);
+    color: #230b3b;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     text-align: center;
@@ -19,6 +19,8 @@ body {
 
     width: 100vw;
     height: 100vh;
+
+    overflow: hidden;
 
     display: flex;
     align-items: center;
@@ -79,4 +81,13 @@ body {
     button:hover {
         background-color: #f472b6;
     }
+}
+
+.card span {
+    color: #fc466b;
+    font-weight: bold;
+}
+
+#resetGame {
+    display: none;
 }
